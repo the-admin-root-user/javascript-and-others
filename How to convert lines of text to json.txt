@@ -1,0 +1,10 @@
+var output = ''
+var output1 = output.replaceAll(/[^\S\n]/gm,'')
+var output2 = output1.replaceAll(/^(\r|\n\r?)/gm,'')
+var output3 = output2.replaceAll(/^|$/gm,'"')
+var output4 = output3.replaceAll(/(?<=")\n(?=")/gm,',')
+var output5 = output4.replaceAll(/","$/gm,'"')
+var output6 = output5.replaceAll(/^/gm,'[')
+var output7 = output6.replaceAll(/$/gm,']')
+
+#output7 will json line of text
