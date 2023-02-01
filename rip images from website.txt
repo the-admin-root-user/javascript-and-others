@@ -1,0 +1,29 @@
+var output = ''
+document.querySelectorAll("div.page-break.no-gaps img").forEach(x => output += x.dataset.src + '\n')
+var output1 = output.replaceAll(/[^\S\n]/gm,'')
+var output2 = output1.replaceAll(/^(\r|\n\r?)/gm,'')
+var output3 = output2.replaceAll(/^|$/gm,'"')
+var output4 = output3.replaceAll(/(?<=")\n(?=")/gm,',')
+var output5 = output4.replaceAll(/","$/gm,'"')
+var output6 = output5.replaceAll(/^/gm,'[')
+var output7 = output6.replaceAll(/$/gm,']')
+var varcode = `var data = ${output7}
+data.forEach(function(obj) {
+  var img = new Image();
+  img.src = obj;
+  document.getElementById("img-container").appendChild(img);
+});`;
+copy(varcode)
+
+
+
+
+
+str = `network requests from ublock in a plan table mode`
+extract = str.match(/https.*.jpg/gm); 
+data = extract.reverse()
+data.forEach(function(obj) {
+  var img = new Image();
+  img.src = obj;
+  document.getElementById("img-container").appendChild(img);
+});
