@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/50248329/fetch-image-from-api
+https://stackoverflow.com/questions/67087860/i-need-to-add-image-elements-to-the-dom-for-each-image-in-the-array-using-fetch
+https://stackoverflow.com/questions/69286425/how-to-add-image-in-javascript-i-have-been-trying-to-fetch-it-through-this-api
+https://stackoverflow.com/questions/18650168/convert-blob-to-base64?answertab=modifieddesc#tab-top
+https://www.google.com/search?q=%22createElement%22+fetch+img
+https://dev.to/satvik/how-to-fetch-images-from-and-api-5h8h

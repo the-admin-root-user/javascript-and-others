@@ -1,0 +1,4 @@
+https://stackoverflow.com/a/61632051
+https://stackoverflow.com/questions/54857222/find-all-values-by-specific-key-in-a-deep-nested-object
+https://stackoverflow.com/questions/72085284/how-can-i-extract-keys-and-values-from-a-nested-object-of-objects
+https://stackoverflow.com/questions/47062922/how-to-get-all-keys-with-values-from-nested-objects
