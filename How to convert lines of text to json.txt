@@ -7,4 +7,4 @@ var output5 = output4.replaceAll(/","$/gm,'"')
 var output6 = output5.replaceAll(/^/gm,'[')
 var output7 = output6.replaceAll(/$/gm,']')
 
-#output7 will json line of text
+#output7 will be json line of text
